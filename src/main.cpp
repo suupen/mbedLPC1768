@@ -12,11 +12,15 @@ int main()
     // put your main code here, to run repeatedly:
     myled = 1;
     myled2 = 0;
-    myled3 = 1;
+    myled3 = 0;
     wait(0.5);
     myled = 0;
     myled2 = 1;
     myled3 = 0;
-    wait(1.2);
-   }
+    wait(0.5);
+    myled = 0;
+    myled2 = 0;
+    myled3 = 1;
+    wait(0.5);
+  }
 }
